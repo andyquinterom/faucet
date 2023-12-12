@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
+    </url>
+    <url>
+        <loc>Nonegetting_started/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonegetting_started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/getting_started/"/>
+    </url>
+    <url>
+        <loc>Noneinstall/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstall/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/install/"/>
+    </url>
+    <url>
+        <loc>Nonees/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonees/getting_started/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/getting_started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonegetting_started/"/>
+    </url>
+    <url>
+        <loc>Nonees/install/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/install/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstall/"/>
+    </url>
+</urlset>
