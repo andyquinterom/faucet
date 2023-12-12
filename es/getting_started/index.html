@@ -18,7 +18,7 @@
     
     
       
-        <title>Inicio Rápido - Faucet</title>
+        <title>Inicio Rápido - faucet</title>
       
     
     
@@ -76,7 +76,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="../" title="Faucet" class="md-header__button md-logo" aria-label="Faucet" data-md-component="logo">
+    <a href="../" title="faucet" class="md-header__button md-logo" aria-label="faucet" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -90,7 +90,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Faucet
+            faucet
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -197,13 +197,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../" title="Faucet" class="md-nav__button md-logo" aria-label="Faucet" data-md-component="logo">
+    <a href="../" title="faucet" class="md-nav__button md-logo" aria-label="faucet" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    Faucet
+    faucet
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -430,14 +430,14 @@
   <h1>Inicio Rápido</h1>
 
 <h2 id="inicio-rapido">Inicio Rápido</h2>
-<p>Para usar Faucet, asegúrate de que esté instalado. Si no lo está, consulta la <a href="#link-to-installation-docs">documentación oficial de instalación</a>.</p>
-<p>Una vez instalado, utiliza el siguiente comando para iniciar Faucet con la configuración predeterminada:</p>
-<pre><code class="language-bash"># Iniciar Faucet
+<p>Para usar faucet, asegúrate de que esté instalado. Si no lo está, consulta la <a href="#link-to-installation-docs">documentación oficial de instalación</a>.</p>
+<p>Una vez instalado, utiliza el siguiente comando para iniciar faucet con la configuración predeterminada:</p>
+<pre><code class="language-bash"># Iniciar faucet
 faucet
 </code></pre>
-<p>Faucet se vinculará a <code>127.0.0.1:3838</code> y determinará automáticamente el número de hilos de trabajo según el número de CPU en la máquina host.</p>
+<p>faucet se vinculará a <code>127.0.0.1:3838</code> y determinará automáticamente el número de hilos de trabajo según el número de CPU en la máquina host.</p>
 <h2 id="ejecutar-una-aplicacion-shiny">Ejecutar una Aplicación Shiny</h2>
-<p>Creemos una aplicación Shiny simple y despliégala usando Faucet.</p>
+<p>Creemos una aplicación Shiny simple y despliégala usando faucet.</p>
 <ol>
 <li>Crea una aplicación Shiny básica llamada <code>app.R</code>:</li>
 </ol>
@@ -450,7 +450,7 @@ ui &lt;- fluidPage(
 
 server &lt;- function(input, output) {
   output$hello &lt;- renderText({
-    &quot;¡Hola, Faucet!&quot;
+    &quot;¡Hola, faucet!&quot;
   })
 }
 
@@ -461,17 +461,17 @@ shinyApp(ui, server)
 <p>Guarda el código anterior en un archivo llamado <code>app.R</code>.</p>
 </li>
 <li>
-<p>Inicia Faucet en el mismo directorio que tu aplicación Shiny:</p>
+<p>Inicia faucet en el mismo directorio que tu aplicación Shiny:</p>
 </li>
 </ol>
 <pre><code class="language-bash">faucet
 </code></pre>
-<p>Faucet detectará automáticamente la aplicación Shiny y la desplegará.</p>
+<p>faucet detectará automáticamente la aplicación Shiny y la desplegará.</p>
 <ol>
 <li>Abre tu navegador web y dirígete a <a href="http://127.0.0.1:3838">http://127.0.0.1:3838</a> para ver tu aplicación Shiny en acción.</li>
 </ol>
 <h3 id="anadir-mas-trabajadores">Añadir más trabajadores</h3>
-<p>Si tu computadora tiene más de un núcleo de CPU, probablemente hayas visto que se crearon muchos trabajadores al iniciar Faucet. Esto se debe a que Faucet detecta automáticamente el número de núcleos de CPU en tu computadora y crea un trabajador por cada núcleo.</p>
+<p>Si tu computadora tiene más de un núcleo de CPU, probablemente hayas visto que se crearon muchos trabajadores al iniciar faucet. Esto se debe a que faucet detecta automáticamente el número de núcleos de CPU en tu computadora y crea un trabajador por cada núcleo.</p>
 <p>Puedes personalizar el número de trabajadores utilizando la bandera <code>--workers</code>:</p>
 <pre><code class="language-bash">faucet --workers 4
 </code></pre>
@@ -479,10 +479,10 @@ shinyApp(ui, server)
 <pre><code class="language-bash">export FAUCET_WORKERS=4
 faucet
 </code></pre>
-<p>En ambos casos, Faucet creará 4 trabajadores en puertos aleatorios disponibles. El tráfico se equilibrará entre todos los trabajadores según la dirección IP de la solicitud entrante. Esto significa que si tienes 4 trabajadores, podrás manejar 4 veces más solicitudes concurrentes que un solo trabajador.</p>
+<p>En ambos casos, faucet creará 4 trabajadores en puertos aleatorios disponibles. El tráfico se equilibrará entre todos los trabajadores según la dirección IP de la solicitud entrante. Esto significa que si tienes 4 trabajadores, podrás manejar 4 veces más solicitudes concurrentes que un solo trabajador.</p>
 <h2 id="conclusion">Conclusión</h2>
-<p>¡Felicidades! Has comenzado a usar Faucet y desplegado una aplicación Shiny básica con muchos trabajadores.</p>
-<p>¡Feliz programación con Faucet!</p>
+<p>¡Felicidades! Has comenzado a usar faucet y desplegado una aplicación Shiny básica con muchos trabajadores.</p>
+<p>¡Feliz programación con faucet!</p>
 
 
 
