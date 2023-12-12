@@ -733,7 +733,18 @@ USER faucet
 </code></pre>
 <p>Ahora puedes acceder a tu aplicación/API en <code>http://localhost:3838</code>.</p>
 <h4 id="controlar-la-instancia-de-faucet">Controlar la instancia de faucet</h4>
-<p>Puedes controlar todos los aspectos de la instancia de faucet configurando variables de entorno en el contenedor de Docker. Por ejemplo, si deseas cambiar</p>
+<p>Puedes controlar todos los aspectos de la instancia de faucet configurando
+variables de entorno en el contenedor de Docker. Por ejemplo, si deseas cambiar
+el número de trabajadores, puedes hacerlo configurando la variable de entorno
+<code>FAUCET_WORKERS</code>:</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 -e FAUCET_WORKERS=4 my_faucet_app
+</code></pre>
+<p>Si estás ejecutando la aplicación/API detrás de un proxy como Nginx, puedes
+configurar la variable de entorno <code>FAUCET_IP_FROM</code> en <code>x-real-ip</code>
+o <code>x-forwarded-for</code> para asegurarte de que faucet obtenga la dirección IP
+correcta del cliente.</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 -e FAUCET_IP_FROM=x-real-ip my_faucet_app
+</code></pre>
 
 
 
