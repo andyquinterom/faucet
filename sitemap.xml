@@ -15,6 +15,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/getting_started/"/>
     </url>
     <url>
+        <loc>Nonein_containers/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonein_containers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/in_containers/"/>
+    </url>
+    <url>
         <loc>Noneinstall/</loc>
         <lastmod>2023-12-12</lastmod>
         <changefreq>daily</changefreq>
@@ -34,6 +41,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/getting_started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonegetting_started/"/>
+    </url>
+    <url>
+        <loc>Nonees/in_containers/</loc>
+        <lastmod>2023-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/in_containers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonein_containers/"/>
     </url>
     <url>
         <loc>Nonees/install/</loc>

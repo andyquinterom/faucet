@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../install/">
+        <link rel="prev" href="../getting_started/">
       
-      
-        <link rel="next" href="../in_containers/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Inicio Rápido - faucet</title>
+        <title>faucet en Contenedores - faucet</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#inicio-rapido" class="md-skip">
+        <a href="#faucet-en-contenedores-docker" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Inicio Rápido
+              faucet en Contenedores
             
           </span>
         </div>
@@ -119,7 +117,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../getting_started/" hreflang="en" class="md-select__link">
+            <a href="../../in_containers/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -254,6 +252,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio Rápido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -263,12 +281,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Inicio Rápido
+    faucet en Contenedores
   </span>
   
 
@@ -279,7 +299,7 @@
         
   
   <span class="md-ellipsis">
-    Inicio Rápido
+    faucet en Contenedores
   </span>
   
 
@@ -291,6 +311,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -299,28 +321,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inicio-rapido" class="md-nav__link">
+  <a href="#construir-una-imagen-de-docker-para-faucet" class="md-nav__link">
     <span class="md-ellipsis">
-      Inicio Rápido
+      Construir una Imagen de Docker para faucet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Construir una Imagen de Docker para faucet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#una-aplicacion-basica-shiny-o-plumber-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Una aplicación básica Shiny o Plumber API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Una aplicación básica Shiny o Plumber API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aplicacion-shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicación Shiny
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#ejecutar-una-aplicacion-shiny" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ejecutar una Aplicación Shiny
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ejecutar una Aplicación Shiny">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#anadir-mas-trabajadores" class="md-nav__link">
+  <a href="#plumber-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Añadir más trabajadores
+      Plumber API
     </span>
   </a>
   
@@ -330,13 +362,69 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusión
+      Dockerfile
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dockerfile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerignore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escribir-el-dockerfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escribir el Dockerfile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#construir-la-imagen-de-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construir la imagen de Docker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejecutar-la-imagen-de-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejecutar la imagen de Docker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlar-la-instancia-de-faucet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlar la instancia de faucet
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -344,26 +432,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../in_containers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    faucet en Contenedores
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -385,6 +453,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -393,28 +463,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inicio-rapido" class="md-nav__link">
+  <a href="#construir-una-imagen-de-docker-para-faucet" class="md-nav__link">
     <span class="md-ellipsis">
-      Inicio Rápido
+      Construir una Imagen de Docker para faucet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Construir una Imagen de Docker para faucet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#una-aplicacion-basica-shiny-o-plumber-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Una aplicación básica Shiny o Plumber API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Una aplicación básica Shiny o Plumber API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aplicacion-shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicación Shiny
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#ejecutar-una-aplicacion-shiny" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ejecutar una Aplicación Shiny
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ejecutar una Aplicación Shiny">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#anadir-mas-trabajadores" class="md-nav__link">
+  <a href="#plumber-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Añadir más trabajadores
+      Plumber API
     </span>
   </a>
   
@@ -424,13 +504,69 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusión
+      Dockerfile
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dockerfile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerignore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escribir-el-dockerfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escribir el Dockerfile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#construir-la-imagen-de-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Construir la imagen de Docker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejecutar-la-imagen-de-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejecutar la imagen de Docker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlar-la-instancia-de-faucet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlar la instancia de faucet
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -449,62 +585,126 @@
                   
 
 
-  <h1>Inicio Rápido</h1>
-
-<h2 id="inicio-rapido">Inicio Rápido</h2>
-<p>Para usar faucet, asegúrate de que esté instalado. Si no lo está, consulta la <a href="../install/">documentación oficial de instalación</a>.</p>
-<p>Una vez instalado, utiliza el siguiente comando para iniciar faucet con la configuración predeterminada:</p>
-<pre><code class="language-bash"># Iniciar faucet
-faucet
-</code></pre>
-<p>faucet se vinculará a <code>127.0.0.1:3838</code> y determinará automáticamente el número de hilos de trabajo según el número de CPU en la máquina host.</p>
-<h2 id="ejecutar-una-aplicacion-shiny">Ejecutar una Aplicación Shiny</h2>
-<p>Creemos una aplicación Shiny simple y despliégala usando faucet.</p>
+<h1 id="faucet-en-contenedores-docker">faucet en Contenedores (Docker)</h1>
+<p>Probablemente la manera más fácil y versátil de implementar faucet es construir una imagen de contenedor Linux y ejecutarla en un contenedor. Esto le permitirá ejecutar faucet en cualquier host de Linux que admita contenedores, como una computadora portátil, una máquina virtual o un servidor.</p>
+<h2 id="construir-una-imagen-de-docker-para-faucet">Construir una Imagen de Docker para faucet</h2>
+<p>En esta sección, utilizarás la imagen disponible de faucet + R desde Docker Hub. Sin embargo, también puedes construir tu propia imagen si lo deseas. Debes seguir las instrucciones de instalación disponibles para tu sistema operativo para instalar Docker.</p>
+<p>Para construir correctamente la imagen de faucet, debes tener en cuenta los siguientes pasos:</p>
 <ol>
-<li>Crea una aplicación Shiny básica llamada <code>app.R</code>:</li>
+<li><em>Instalar Docker en tu máquina host.</em> Puedes encontrar las instrucciones específicas para tu sistema operativo en la <a href="https://docs.docker.com/engine/install/">Guía de Instalación de Docker</a>.</li>
+<li><em>Considerar las dependencias de tu aplicación en R.</em> Si estás utilizando paquetes R que requieren dependencias del sistema, deberás instalarlas en la imagen de Docker. También, ten en cuenta las versiones de R y las bibliotecas; te recomendamos utilizar <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a>. Para este tutorial, asumiremos que ya estás utilizando <code>renv</code>.</li>
+<li><em>Ignorar archivos sensibles o innecesarios.</em> Puedes utilizar un archivo <code>.dockerignore</code> para ignorar archivos que no son necesarios en la imagen de Docker, o puedes especificar manualmente los archivos que deseas incluir en la imagen. En este caso, utilizaremos un archivo <code>.dockerignore</code> para ignorar dichos archivos.</li>
 </ol>
-<pre><code class="language-R"># app.R
+<h3 id="una-aplicacion-basica-shiny-o-plumber-api">Una aplicación básica Shiny o Plumber API</h3>
+<p>En esta sección, arrancarás una aplicación Shiny básica o Plumber API para utilizar como ejemplo. Puedes usar tu propia aplicación o API, pero asegúrate de tener <code>renv</code> inicializado.</p>
+<h4 id="aplicacion-shiny">Aplicación Shiny</h4>
+<pre><code class="language-r"># app.R
 library(shiny)
 
 ui &lt;- fluidPage(
-  shinyOutput(&quot;hello&quot;)
+  titlePanel(&quot;¡Hola Shiny!&quot;),
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput(&quot;obs&quot;, &quot;Número de observaciones:&quot;, min = 10, max = 500, value = 100)
+    ),
+    mainPanel(
+      plotOutput(&quot;distPlot&quot;)
+    )
+  )
 )
 
 server &lt;- function(input, output) {
-  output$hello &lt;- renderText({
-    &quot;¡Hola, faucet!&quot;
+  output$distPlot &lt;- renderPlot({
+    hist(rnorm(input$obs))
   })
 }
 
-shinyApp(ui, server)
+shinyApp(ui = ui, server = server)
 </code></pre>
-<ol>
-<li>
-<p>Guarda el código anterior en un archivo llamado <code>app.R</code>.</p>
-</li>
-<li>
-<p>Inicia faucet en el mismo directorio que tu aplicación Shiny:</p>
-</li>
-</ol>
-<pre><code class="language-bash">faucet
+<p>Después de guardar la aplicación, puedes ejecutarla localmente con:</p>
+<pre><code class="language-r">shiny::runApp()
 </code></pre>
-<p>faucet detectará automáticamente la aplicación Shiny y la desplegará.</p>
-<ol>
-<li>Abre tu navegador web y dirígete a <a href="http://127.0.0.1:3838">http://127.0.0.1:3838</a> para ver tu aplicación Shiny en acción.</li>
-</ol>
-<h3 id="anadir-mas-trabajadores">Añadir más trabajadores</h3>
-<p>Si tu computadora tiene más de un núcleo de CPU, probablemente hayas visto que se crearon muchos trabajadores al iniciar faucet. Esto se debe a que faucet detecta automáticamente el número de núcleos de CPU en tu computadora y crea un trabajador por cada núcleo.</p>
-<p>Puedes personalizar el número de trabajadores utilizando la bandera <code>--workers</code>:</p>
-<pre><code class="language-bash">faucet --workers 4
+<p>Para asegurarte de que <code>renv</code> detecte todos los paquetes utilizados en la aplicación, debes crear un archivo <code>dependencies.R</code> con el siguiente contenido:</p>
+<pre><code class="language-r"># dependencies.R
+library(shiny)
 </code></pre>
-<p>O configurando la variable de entorno <code>FAUCET_WORKERS</code>:</p>
-<pre><code class="language-bash">export FAUCET_WORKERS=4
-faucet
+<p>Ahora puedes inicializar <code>renv</code> e instalar los paquetes:</p>
+<pre><code class="language-r">renv::init()
+renv::activate()
 </code></pre>
-<p>En ambos casos, faucet creará 4 trabajadores en puertos aleatorios disponibles. El tráfico se equilibrará entre todos los trabajadores según la dirección IP de la solicitud entrante. Esto significa que si tienes 4 trabajadores, podrás manejar 4 veces más solicitudes concurrentes que un solo trabajador.</p>
-<h2 id="conclusion">Conclusión</h2>
-<p>¡Felicidades! Has comenzado a usar faucet y desplegado una aplicación Shiny básica con muchos trabajadores.</p>
-<p>¡Feliz programación con faucet!</p>
+<h4 id="plumber-api">Plumber API</h4>
+<pre><code class="language-r"># plumber.R
+#* @get /echo
+function(){
+  list(msg = &quot;¡Hola Mundo!&quot;)
+}
+</code></pre>
+<p>Después de guardar la API, puedes ejecutarla localmente con:</p>
+<pre><code class="language-r">library(plumber)
+# 'plumber.R' es la ubicación del archivo mostrado anteriormente
+pr(&quot;plumber.R&quot;) %&gt;%
+  pr_run()
+</code></pre>
+<p>Para asegurarte de que <code>renv</code> detecte todos los paquetes utilizados en la API, debes crear un archivo <code>dependencies.R</code> con el siguiente contenido:</p>
+<pre><code class="language-r"># dependencies.R
+library(plumber)
+</code></pre>
+<p>Ahora puedes inicializar <code>renv</code> e instalar los paquetes:</p>
+<pre><code class="language-r">renv::init()
+renv::activate()
+</code></pre>
+<h3 id="dockerfile">Dockerfile</h3>
+<h4 id="dockerignore">Dockerignore</h4>
+<p>El primer paso para construir nuestra imagen de Docker es crear un archivo <code>.dockerignore</code> en la raíz de nuestro proyecto. Este archivo contendrá los archivos que deseas ignorar al construir la imagen de Docker. En este caso, ignoraremos los siguientes archivos de <code>renv</code>:</p>
+<pre><code class="language-dockerignore">renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+</code></pre>
+<p>Si este fuera un proyecto real, probablemente también ignorarías archivos como <code>.git</code>, <code>.Rproj.user</code>, <code>.DS_Store</code> y archivos sensibles como <code>.env</code>, <code>.htpasswd</code>, etc.</p>
+<h4 id="escribir-el-dockerfile">Escribir el Dockerfile</h4>
+<p>El primer paso para construir nuestra imagen de Docker es crear un archivo <code>Dockerfile</code> en la raíz de nuestro proyecto. Este archivo contendrá las instrucciones para construir nuestra imagen de Docker. En este caso, utilizarás la imagen <a href="https://hub.docker.com/r/andyquinterom/faucet"><code>andyquinterom/faucet</code></a> como base. Esta imagen se basa en la imagen <a href="https://hub.docker.com/r/rocker/r-ver"><code>rocker/r-ver</code></a>, que es una imagen R mínima basada en Debian Linux.</p>
+<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.3.1-r4.3
+
+# Algunas variables de entorno para indicar a `renv`
+# instalar paquetes en la ubicación correcta
+# y sin enlaces simbólicos innecesarios
+ENV RENV_CONFIG_CACHE_SYMLINKS FALSE
+ENV RENV_PATHS_LIBRARY /srv/faucet/renv/library
+
+# Copias los archivos necesarios para arrancar `renv`
+COPY ./renv.lock .
+COPY ./renv ./renv
+COPY ./.Rprofile .
+
+# Instalas los paquetes
+RUN Rscript -e &quot;renv::restore()&quot;
+
+# Copias los archivos de la aplicación/API; en este caso,
+# reemplaza `app.R` con `plumber.R` si estás utilizando
+# una Plumber API
+COPY ./app.R .
+
+# Puedes ejecutar el contenedor como un usuario no root
+# por razones de seguridad, aunque esto no es necesario.
+# Puedes ignorar esto
+RUN chown -R faucet:faucet /srv/faucet/
+USER faucet
+</code></pre>
+<h4 id="construir-la-imagen-de-docker">Construir la imagen de Docker</h4>
+<p>Ahora que tienes un <code>Dockerfile</code> y un archivo <code>.dockerignore</code>, puedes construir la imagen de Docker con el siguiente comando:</p>
+<pre><code class="language-bash">docker build -t my_faucet_app .
+</code></pre>
+<h4 id="ejecutar-la-imagen-de-docker">Ejecutar la imagen de Docker</h4>
+<p>Una vez construida la imagen, puedes ejecutarla con el siguiente comando:</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 my_faucet_app
+</code></pre>
+<p>Ahora puedes acceder a tu aplicación/API en <code>http://localhost:3838</code>.</p>
+<h4 id="controlar-la-instancia-de-faucet">Controlar la instancia de faucet</h4>
+<p>Puedes controlar todos los aspectos de la instancia de faucet configurando variables de entorno en el contenedor de Docker. Por ejemplo, si deseas cambiar</p>
 
 
 

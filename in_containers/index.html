@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../install/">
+        <link rel="prev" href="../getting_started/">
       
-      
-        <link rel="next" href="../in_containers/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Getting Started - faucet</title>
+        <title>faucet in Containers - faucet</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#quick-start" class="md-skip">
+        <a href="#faucet-in-containers-docker" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting Started
+              faucet in Containers
             
           </span>
         </div>
@@ -125,7 +123,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../es/getting_started/" hreflang="es" class="md-select__link">
+            <a href="../es/in_containers/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
@@ -254,6 +252,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -263,12 +281,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Getting Started
+    faucet in Containers
   </span>
   
 
@@ -279,7 +299,7 @@
         
   
   <span class="md-ellipsis">
-    Getting Started
+    faucet in Containers
   </span>
   
 
@@ -291,6 +311,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -299,28 +321,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#build-a-docker-image-for-faucet" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start
+      Build a Docker Image for faucet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Build a Docker Image for faucet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-basic-shiny-app-or-plumber-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      A basic Shiny app or Plumber API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A basic Shiny app or Plumber API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shiny-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shiny app
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#running-a-shiny-application" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running a Shiny Application
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Running a Shiny Application">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adding-more-workers" class="md-nav__link">
+  <a href="#plumber-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Adding more workers
+      Plumber API
     </span>
   </a>
   
@@ -330,13 +362,69 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusion
+      Dockerfile
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dockerfile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerignore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-the-dockerfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing the Dockerfile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-the-docker-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building the Docker image
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-docker-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running the Docker image
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlling-the-faucet-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlling the faucet instance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -344,26 +432,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../in_containers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    faucet in Containers
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -385,6 +453,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -393,28 +463,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#build-a-docker-image-for-faucet" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start
+      Build a Docker Image for faucet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Build a Docker Image for faucet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-basic-shiny-app-or-plumber-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      A basic Shiny app or Plumber API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A basic Shiny app or Plumber API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shiny-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shiny app
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#running-a-shiny-application" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running a Shiny Application
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Running a Shiny Application">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adding-more-workers" class="md-nav__link">
+  <a href="#plumber-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Adding more workers
+      Plumber API
     </span>
   </a>
   
@@ -424,13 +504,69 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusion
+      Dockerfile
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dockerfile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dockerignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerignore
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-the-dockerfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing the Dockerfile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-the-docker-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building the Docker image
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-docker-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running the Docker image
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlling-the-faucet-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlling the faucet instance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -449,69 +585,173 @@
                   
 
 
-  <h1>Getting Started</h1>
-
-<h2 id="quick-start">Quick Start</h2>
-<p>To use faucet, ensure that it is installed. If not, refer to the <a href="../install/">official installation documentation</a>.</p>
-<p>Once installed, use the following command to start faucet with default settings:</p>
-<pre><code class="language-bash"># Start faucet
-faucet
-</code></pre>
-<p>faucet will bind to <code>127.0.0.1:3838</code> and automatically determine the number of worker threads based on the number of CPUs on the host machine.</p>
-<h2 id="running-a-shiny-application">Running a Shiny Application</h2>
-<p>Let's create a simple Shiny application and deploy it using faucet.</p>
+<h1 id="faucet-in-containers-docker">faucet in Containers (Docker)</h1>
+<p>Probably the easiest and most versatile way to deploy faucet
+is to build a Linux container image and run it in a container.
+This will allow you to run faucet on any Linux host that supports
+containers, like a laptop, a VM, or a server.</p>
+<h2 id="build-a-docker-image-for-faucet">Build a Docker Image for faucet</h2>
+<p>In this section, you will be using the available faucet + R image
+from the Docker Hub. You can however, build your own image if you
+want to. You should use the available installation instructions
+for your OS to install Docker.</p>
+<p>In order to properly build the faucet image, you will need to
+take the following steps into account:</p>
 <ol>
-<li>Create a basic Shiny app named <code>app.R</code>:</li>
+<li><em>Install Docker on your host machine.</em> You can find instructions
+   on how to do this for your specific OS in the
+   <a href="https://docs.docker.com/engine/install/">Docker Installation Guide</a>.</li>
+<li><em>Take your R application dependencies into account.</em> If you are
+   using R packages that require system dependencies, you will
+   need to install them in the Docker image. Also, take the R
+   and library versions into account, we highly recommend you
+   use <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a>.
+   For this tutorial we will assume you are using <code>renv</code> already.</li>
+<li><em>Ignore sensitive or unnecessary files.</em> You can use a <code>.dockerignore</code>
+   file to ignore files that are not needed in the Docker image or
+   you can manually specify the files you want to include in the
+   image. In this case, we will use a <code>.dockerignore</code> file to ignore
+   said files.</li>
 </ol>
-<pre><code class="language-R"># app.R
+<h3 id="a-basic-shiny-app-or-plumber-api">A basic Shiny app or Plumber API</h3>
+<p>In this section, you will bootstrap a basic Shiny app or Plumber API
+to use as an example. You can use your own app or API, but make sure
+you have <code>renv</code> initialized.</p>
+<h4 id="shiny-app">Shiny app</h4>
+<pre><code class="language-r"># app.R
 library(shiny)
 
 ui &lt;- fluidPage(
-  shinyOutput(&quot;hello&quot;)
+  titlePanel(&quot;Hello Shiny!&quot;),
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput(&quot;obs&quot;, &quot;Number of observations:&quot;, min = 10, max = 500, value = 100)
+    ),
+    mainPanel(
+      plotOutput(&quot;distPlot&quot;)
+    )
+  )
 )
 
 server &lt;- function(input, output) {
-  output$hello &lt;- renderText({
-    &quot;Hello, faucet!&quot;
+  output$distPlot &lt;- renderPlot({
+    hist(rnorm(input$obs))
   })
 }
 
-shinyApp(ui, server)
+shinyApp(ui = ui, server = server)
 </code></pre>
-<ol>
-<li>
-<p>Save the above code in a file named <code>app.R</code>.</p>
-</li>
-<li>
-<p>Start faucet in the same directory as your Shiny app:</p>
-</li>
-</ol>
-<pre><code class="language-bash">faucet
+<p>After saving the app, you can run it locally with:</p>
+<pre><code class="language-r">shiny::runApp()
 </code></pre>
-<p>faucet will automatically detect the Shiny app and deploy it.</p>
-<ol>
-<li>Open your web browser and navigate to <a href="http://127.0.0.1:3838">http://127.0.0.1:3838</a> to see your Shiny app in action.</li>
-</ol>
-<h3 id="adding-more-workers">Adding more workers</h3>
-<p>If your computer has more than one CPU core, then you probably saw that
-many workers were created when you started faucet. This is because faucet
-automatically detects the number of CPU cores on your computer and creates
-a worker for each core.</p>
-<p>You can customize the number of workers by using the <code>--workers</code> flag:</p>
-<pre><code class="language-bash">faucet --workers 4
+<p>To make absolutely sure that <code>renv</code> detects all the packages used
+in the app, you should create a <code>dependencies.R</code> file with the
+following contents:</p>
+<pre><code class="language-r"># dependencies.R
+library(shiny)
 </code></pre>
-<p>Or by setting the <code>FAUCET_WORKERS</code> environment variable:</p>
-<pre><code class="language-bash">export FAUCET_WORKERS=4
-faucet
+<p>Now, you can initialize <code>renv</code> and install the packages:</p>
+<pre><code class="language-r">renv::init()
+renv::activate()
 </code></pre>
-<p>In both cases, faucet will create 4 workers on random available ports.
-Traffic will be load balanced across all workers according to the
-IP address of the incoming request. This means that if you have 4 workers,
-then you can handle 4 times as many concurrent requests as a single worker.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Congratulations! You have successfully started using faucet and deployed a
-basic Shiny application with many workers.</p>
-<p>Happy coding with faucet!</p>
+<h4 id="plumber-api">Plumber API</h4>
+<pre><code class="language-r"># plumber.R
+#* @get /echo
+function(){
+  list(msg = &quot;Hello World!&quot;)
+}
+</code></pre>
+<p>After saving the API, you can run it locally with:</p>
+<pre><code class="language-r">library(plumber)
+# 'plumber.R' is the location of the file shown above
+pr(&quot;plumber.R&quot;) %&gt;%
+  pr_run()
+</code></pre>
+<p>To make absolutely sure that <code>renv</code> detects all the packages used
+in the API, you should create a <code>dependencies.R</code> file with the
+following contents:</p>
+<pre><code class="language-r"># dependencies.R
+library(plumber)
+</code></pre>
+<p>Now, you can initialize <code>renv</code> and install the packages:</p>
+<pre><code class="language-r">renv::init()
+renv::activate()
+</code></pre>
+<h3 id="dockerfile">Dockerfile</h3>
+<h4 id="dockerignore">Dockerignore</h4>
+<p>The first step to building our Docker image is to create a <code>.dockerignore</code>
+file in the root of our project. This file will contain the files
+that you want to ignore when building the Docker image. In this case,
+we will ignore the following <code>renv</code> files:</p>
+<pre><code class="language-dockerignore">renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+</code></pre>
+<p>If this were a real project, you would probably also ignore files
+like <code>.git</code>, <code>.Rproj.user</code>, <code>.DS_Store</code>, and sensitive files like
+<code>.env</code>, <code>.htpasswd</code>, etc.</p>
+<h4 id="writing-the-dockerfile">Writing the Dockerfile</h4>
+<p>The first step to building our Docker image is to create a <code>Dockerfile</code>
+in the root of our project. This file will contain the instructions
+to build our Docker image. In this case, you will use the
+<a href="https://hub.docker.com/r/andyquinterom/faucet"><code>andyquinterom/faucet</code></a>
+image as our base image. This image is based on the
+<a href="https://hub.docker.com/r/rocker/r-ver"><code>rocker/r-ver</code></a> image,
+which is a minimal R image based on Debian Linux.</p>
+<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.3.1-r4.3
+
+# Some environment variables to tell `renv`
+# to install packages in the correct location
+# and without unnecessary symlinks
+ENV RENV_CONFIG_CACHE_SYMLINKS FALSE
+ENV RENV_PATHS_LIBRARY /srv/faucet/renv/library
+
+# You copy the necessary files to bootstrap `renv`
+COPY ./renv.lock .
+COPY ./renv ./renv
+COPY ./.Rprofile .
+
+# You install the packages
+RUN Rscript -e &quot;renv::restore()&quot;
+
+# Copy the app/API files in this case replace
+# `app.R` with `plumber.R` if you are using a
+# Plumber API
+COPY ./app.R .
+
+# You can run the container as a non-root user
+# for security reasons if we want to though
+# this is not necessary. You could ignore this
+RUN chown -R faucet:faucet /srv/faucet/
+USER faucet
+</code></pre>
+<h4 id="building-the-docker-image">Building the Docker image</h4>
+<p>Now that you have a <code>Dockerfile</code> and a <code>.dockerignore</code> file, you
+can build the Docker image with the following command:</p>
+<pre><code class="language-bash">docker build -t my_faucet_app .
+</code></pre>
+<h4 id="running-the-docker-image">Running the Docker image</h4>
+<p>Once the image is built, you can run it with the following command:</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 my_faucet_app
+</code></pre>
+<p>You can now access your app/API at <code>http://localhost:3838</code>.</p>
+<h4 id="controlling-the-faucet-instance">Controlling the faucet instance</h4>
+<p>You can control every aspect of the faucet instance by setting
+environment variables in the Docker container. For example, if
+you want to change the number of workers, you can do so by setting
+the <code>FAUCET_WORKERS</code> environment variable:</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 -e FAUCET_WORKERS=4 my_faucet_app
+</code></pre>
+<p>If you are running the app/API behind a proxy like Nginx, you
+can set the <code>FAUCET_IP_FROM</code> environment variable to <code>x-real-ip</code>
+or <code>x-forwarded-for</code> to make sure faucet gets the correct IP
+address of the client.</p>
+<pre><code class="language-bash">docker run --rm -p 3838:3838 -e FAUCET_IP_FROM=x-real-ip my_faucet_app
+</code></pre>
 
 
 
