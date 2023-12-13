@@ -26,6 +26,9 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.50c56a3b.min.css">
       
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -43,6 +46,8 @@
       
     
     
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -53,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="faucet" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -62,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#faucet-fast-asynchronous-concurrent-r-application-deployment" class="md-skip">
+        <a href="#faucet" class="md-skip">
           Skip to content
         </a>
       
@@ -80,8 +90,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="faucet" class="md-header__button md-logo" aria-label="faucet" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="figures/faucet.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,8 +114,8 @@
       </div>
     </div>
     
+      
     
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
       <div class="md-header__option">
@@ -213,8 +222,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="." title="faucet" class="md-nav__button md-logo" aria-label="faucet" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="figures/faucet.svg" alt="logo">
 
     </a>
     faucet
@@ -285,6 +293,15 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
@@ -417,6 +434,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features
@@ -470,11 +496,14 @@
   
 
 
-<h1 id="faucet-fast-asynchronous-concurrent-r-application-deployment">faucet: Fast, Asynchronous, Concurrent R Application Deployment</h1>
+<h1 id="faucet">faucet <img align="right" alt="logo" height="139" src="figures/faucet.svg" width="120" /></h1>
 <!-- badges: start -->
 <p><a href="https://crates.io/crates/faucet-server"><img alt="Crates.io" src="https://img.shields.io/crates/v/faucet-server.svg" /></a></p>
 <!-- badges: end -->
 
+<p>Fast, Asynchronous, Concurrent R Application Deployment</p>
+<hr />
+<h2 id="overview">Overview</h2>
 <p>Welcome to faucet, your high-performance solution for deploying Plumber APIs and Shiny Applications with speed and efficiency. faucet is a Rust-based server that offers Round Robin and IP Hash load balancing, ensuring seamless scaling and distribution of your R applications. Whether you're a data scientist, developer, or DevOps enthusiast, faucet simplifies deployment, making it easy to manage replicas and balance loads effectively.</p>
 <h2 id="features">Features</h2>
 <ul>
