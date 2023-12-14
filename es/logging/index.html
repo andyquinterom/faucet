@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,28 +8,26 @@
       
       
       
-        <link rel="canonical" href="https://andyquinterom.github.io/faucet/install/">
+        <link rel="canonical" href="https://andyquinterom.github.io/faucet/es/logging/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../in_containers/">
       
       
-        <link rel="next" href="../getting_started/">
       
-      
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Installation - faucet</title>
+        <title>Logging - faucet</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +46,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,8 +72,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation" class="md-skip">
-          Skip to content
+        <a href="#logging" class="md-skip">
+          Saltar a contenido
         </a>
       
     </div>
@@ -89,10 +87,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="faucet" class="md-header__button md-logo" aria-label="faucet" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../" title="faucet" class="md-header__button md-logo" aria-label="faucet" data-md-component="logo">
       
-  <img src="../figures/faucet.png" alt="logo">
+  <img src="../../figures/faucet.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation
+              Logging
             
           </span>
         </div>
@@ -123,20 +121,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../../logging/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../es/install/" hreflang="es" class="md-select__link">
+            <a href="./" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
@@ -155,16 +153,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Buscar">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -175,7 +173,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Inicializando búsqueda
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -186,7 +184,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/andyquinterom/faucet" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/andyquinterom/faucet" title="Ir al repositorio" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -220,18 +218,18 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="faucet" class="md-nav__button md-logo" aria-label="faucet" data-md-component="logo">
+    <a href="../" title="faucet" class="md-nav__button md-logo" aria-label="faucet" data-md-component="logo">
       
-  <img src="../figures/faucet.png" alt="logo">
+  <img src="../../figures/faucet.png" alt="logo">
 
     </a>
     faucet
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/andyquinterom/faucet" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/andyquinterom/faucet" title="Ir al repositorio" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -251,11 +249,91 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Home
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instalación
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio Rápido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../options/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opciones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../in_containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    faucet en Contenedores
   </span>
   
 
@@ -284,7 +362,7 @@
           
   
   <span class="md-ellipsis">
-    Installation
+    Logging
   </span>
   
 
@@ -295,7 +373,7 @@
         
   
   <span class="md-ellipsis">
-    Installation
+    Logging
   </span>
   
 
@@ -303,7 +381,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
   
@@ -312,32 +390,41 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Tabla de contenidos
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-1-binary-download-linux" class="md-nav__link">
+  <a href="#estructura-basica" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 1: Binary Download (Linux)
+      Estructura básica
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-2-install-with-cargo-linux-macos-windows" class="md-nav__link">
+  <a href="#logging-http" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 2: Install with Cargo (Linux, macOS, Windows)
+      Logging HTTP
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-3-build-from-source-linux-macos-windows" class="md-nav__link">
+  <a href="#logging-de-trabajadores" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 3: Build from Source (Linux, macOS, Windows)
+      Logging de trabajadores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrado-de-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtrado de logs
     </span>
   </a>
   
@@ -347,86 +434,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../getting_started/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Getting Started
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../options/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Options
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../in_containers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    faucet in Containers
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../logging/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Logging
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -444,7 +451,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
   
@@ -453,32 +460,41 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Tabla de contenidos
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-1-binary-download-linux" class="md-nav__link">
+  <a href="#estructura-basica" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 1: Binary Download (Linux)
+      Estructura básica
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-2-install-with-cargo-linux-macos-windows" class="md-nav__link">
+  <a href="#logging-http" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 2: Install with Cargo (Linux, macOS, Windows)
+      Logging HTTP
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-3-build-from-source-linux-macos-windows" class="md-nav__link">
+  <a href="#logging-de-trabajadores" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 3: Build from Source (Linux, macOS, Windows)
+      Logging de trabajadores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrado-de-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtrado de logs
     </span>
   </a>
   
@@ -502,54 +518,57 @@
   
 
 
-<h1 id="installation">Installation</h1>
-<h2 id="option-1-binary-download-linux">Option 1: Binary Download (Linux)</h2>
-<p>Download the latest release of faucet for Linux from the
-<a href="https://github.com/andyquinterom/faucet/releases">GitHub Releases page</a>.</p>
-<pre><code class="language-bash">FAUCET_VERSION=&quot;v0.4.0&quot;
-
-wget https://github.com/andyquinterom/faucet/releases/download/$FAUCET_VERSION/faucet-x86_64-unknown-linux-musl -O faucet
-
-# Make the binary executable
-chmod +x faucet
-
-# Move the binary to a directory in your PATH (e.g., user local bin)
-mv faucet ~/.local/bin
+<h1 id="logging">Logging</h1>
+<p>faucet se encarga de hacer logs tanto de las solicitudes y respuestas HTTP como
+de la salida estándar (<code>stdout</code>) y la salida de error (<code>stderr</code>) de los
+procesos trabajadores. Esta sección describe cómo funcionan los logs en faucet
+y cómo filtrar los logs.</p>
+<h2 id="estructura-basica">Estructura básica</h2>
+<p>Todos los logs generados por faucet siguen la siguiente estructura:</p>
+<pre><code>[&lt;marca de tiempo&gt; nivel &lt;fuente&gt;] &lt;mensaje&gt;
 </code></pre>
+<ul>
+<li>La marca de tiempo tiene el formato <code>AAAA-MM-DDTHH:MM:SSZ</code> y está en UTC.</li>
+<li>El nivel puede ser uno de los siguientes:<ul>
+<li><code>ERROR</code></li>
+<li><code>WARN</code></li>
+<li><code>INFO</code></li>
+<li><code>DEBUG</code></li>
+<li><code>TRACE</code></li>
+</ul>
+</li>
+<li>La fuente es ya sea faucet o el nombre del trabajador <code>Worker::&lt;id&gt;</code>.</li>
+</ul>
+<h2 id="logging-http">Logging HTTP</h2>
+<p>Los logs HTTP se registran todos a nivel <code>INFO</code>. La fuente es el trabajador
+encargado de manejar la solicitud. El mensaje tiene la siguiente forma:</p>
+<pre><code>&lt;ip&gt; &quot;&lt;método&gt; &lt;ruta&gt; &lt;protocolo&gt;&quot; &lt;estado&gt; &quot;&lt;agente-de-usuario&gt;&quot; &lt;duración&gt;
+</code></pre>
+<ul>
+<li><code>ip</code> es la dirección IP del cliente (determinada por la opción <code>--ip-from</code>).</li>
+<li><code>método</code> es el método HTTP utilizado.</li>
+<li><code>ruta</code> es la ruta de la solicitud.</li>
+<li><code>protocolo</code> es la versión del protocolo HTTP utilizada.</li>
+<li><code>estado</code> es el código de estado HTTP devuelto.</li>
+<li><code>agente-de-usuario</code> es el agente de usuario del cliente.</li>
+<li><code>duración</code> es el tiempo que tomó manejar la solicitud en milisegundos.</li>
+</ul>
+<h2 id="logging-de-trabajadores">Logging de trabajadores</h2>
+<p>Los logs de trabajadores se dividen en dos componentes: <code>stdout</code> y <code>stderr</code>.
+<code>stdout</code> se loggea a nivel <code>INFO</code> y <code>stderr</code> se loggea a nivel <code>WARN</code>. La
+fuente es el trabajador que posee el proceso subyacente. El mensaje es la línea
+de salida del proceso.</p>
+<h2 id="filtrado-de-logs">Filtrado de logs</h2>
+<p>Por defecto, faucet logea a nivel <code>INFO</code>, lo que significa que se muestran los
+logs de <code>ERROR</code>, <code>WARN</code> e <code>INFO</code>. Para cambiar el nivel de log, utilice la
+variable de entorno <code>FAUCET_LOG</code>.</p>
 <blockquote>
-<p><strong>Note:</strong>
-While the binary download is expected to work on most Linux distributions,
-compatibility is not guaranteed for all systems. If you encounter issues,
-consider using the Cargo installation or building from source options.</p>
+<p><strong>Nota:</strong> Plumber imprime errores que ocurren en puntos finales en <code>stdout</code>,
+por lo que si desea ver esos errores, deberá establecer el nivel de log en
+<code>INFO</code> o inferior. Shiny, por otro lado, imprime errores en <code>stderr</code>, por lo
+que deberá establecer el nivel de log en <code>WARN</code> o inferior para ver esos
+errores.</p>
 </blockquote>
-<h2 id="option-2-install-with-cargo-linux-macos-windows">Option 2: Install with Cargo (Linux, macOS, Windows)</h2>
-<p>Install faucet with Cargo, Rust's package manager.</p>
-<ol>
-<li>Install Rust by following the instructions <a href="https://www.rust-lang.org/tools/install">here</a>.</li>
-</ol>
-<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-</code></pre>
-<ol>
-<li>Install faucet with Cargo.</li>
-</ol>
-<pre><code class="language-bash">cargo install faucet-server
-</code></pre>
-<h2 id="option-3-build-from-source-linux-macos-windows">Option 3: Build from Source (Linux, macOS, Windows)</h2>
-<ol>
-<li>Install Rust by following the instructions <a href="https://www.rust-lang.org/tools/install">here</a>.</li>
-</ol>
-<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-</code></pre>
-<ol>
-<li>Clone the faucet repository.</li>
-</ol>
-<pre><code class="language-bash">git clone https://github.com/andyquinterom/faucet.git
-</code></pre>
-<ol>
-<li>Build faucet with Cargo.</li>
-</ol>
-<pre><code class="language-bash">cargo install --path .
-</code></pre>
 
 
 
@@ -596,10 +615,10 @@ consider using the Cargo installation or building from source options.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

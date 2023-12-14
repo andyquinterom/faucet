@@ -11,8 +11,10 @@
         <link rel="canonical" href="https://andyquinterom.github.io/faucet/in_containers/">
       
       
-        <link rel="prev" href="../getting_started/">
+        <link rel="prev" href="../options/">
       
+      
+        <link rel="next" href="../logging/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -306,6 +308,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../options/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Options
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -466,6 +488,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -739,7 +781,7 @@ to build our Docker image. In this case, you will use the
 image as our base image. This image is based on the
 <a href="https://hub.docker.com/r/rocker/r-ver"><code>rocker/r-ver</code></a> image,
 which is a minimal R image based on Debian Linux.</p>
-<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.3.1-r4.3
+<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.4.0-r4.3
 
 # Some environment variables to tell `renv`
 # to install packages in the correct location

@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://andyquinterom.github.io/faucet/install/">
+        <link rel="canonical" href="https://andyquinterom.github.io/faucet/options/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../getting_started/">
       
       
-        <link rel="next" href="../getting_started/">
+        <link rel="next" href="../in_containers/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Installation - faucet</title>
+        <title>Options - faucet</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation" class="md-skip">
+        <a href="#options-config" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation
+              Options
             
           </span>
         </div>
@@ -136,7 +136,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../es/install/" hreflang="es" class="md-select__link">
+            <a href="../es/options/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
@@ -268,30 +268,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Installation
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -300,53 +280,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#option-1-binary-download-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      Option 1: Binary Download (Linux)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#option-2-install-with-cargo-linux-macos-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Option 2: Install with Cargo (Linux, macOS, Windows)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#option-3-build-from-source-linux-macos-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Option 3: Build from Source (Linux, macOS, Windows)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -375,10 +308,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../options/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Options
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -387,6 +340,146 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#host" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strategy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-robin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Round Robin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP Hash
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-type-of-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type (Type of server)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Type (Type of server)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shiny
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plumber" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plumber
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory-working-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Directory (Working directory)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ip-from-how-to-determine-the-client-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP From (How to determine the client IP)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -458,27 +551,120 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-1-binary-download-linux" class="md-nav__link">
+  <a href="#host" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 1: Binary Download (Linux)
+      Host
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-2-install-with-cargo-linux-macos-windows" class="md-nav__link">
+  <a href="#workers" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 2: Install with Cargo (Linux, macOS, Windows)
+      Workers
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-3-build-from-source-linux-macos-windows" class="md-nav__link">
+  <a href="#strategy" class="md-nav__link">
     <span class="md-ellipsis">
-      Option 3: Build from Source (Linux, macOS, Windows)
+      Strategy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#round-robin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Round Robin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP Hash
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-type-of-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type (Type of server)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Type (Type of server)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shiny
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plumber" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plumber
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory-working-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Directory (Working directory)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ip-from-how-to-determine-the-client-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP From (How to determine the client IP)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging
     </span>
   </a>
   
@@ -502,54 +688,126 @@
   
 
 
-<h1 id="installation">Installation</h1>
-<h2 id="option-1-binary-download-linux">Option 1: Binary Download (Linux)</h2>
-<p>Download the latest release of faucet for Linux from the
-<a href="https://github.com/andyquinterom/faucet/releases">GitHub Releases page</a>.</p>
-<pre><code class="language-bash">FAUCET_VERSION=&quot;v0.4.0&quot;
-
-wget https://github.com/andyquinterom/faucet/releases/download/$FAUCET_VERSION/faucet-x86_64-unknown-linux-musl -O faucet
-
-# Make the binary executable
-chmod +x faucet
-
-# Move the binary to a directory in your PATH (e.g., user local bin)
-mv faucet ~/.local/bin
-</code></pre>
+<h1 id="options-config">Options / Config</h1>
+<p>This section covers all user-configurable options for faucet.</p>
+<h2 id="host">Host</h2>
+<ul>
+<li>CLI: <code>--host</code></li>
+<li>Environment: <code>FAUCET_HOST</code></li>
+<li>Default: <code>127.0.0.1:3838</code></li>
+</ul>
+<p>The host and port to bind the faucet server to. If running in a container, this should
+be set to <code>0.0.0.0:3838</code> to allow external access.</p>
+<h2 id="workers">Workers</h2>
+<ul>
+<li>CLI: <code>--workers</code> or <code>-w</code></li>
+<li>Environment: <code>FAUCET_WORKERS</code></li>
+<li>Default: The number of CPUs available to the process</li>
+</ul>
+<p>The number of worker processes to spawn. On a CPU-bound workload, this should be set to
+the number of CPUs available to the process. On an IO-bound workload, this could be set
+to a higher number.</p>
+<h2 id="strategy">Strategy</h2>
+<ul>
+<li>CLI: <code>--strategy</code> or <code>-s</code></li>
+<li>Environment: <code>FAUCET_STRATEGY</code></li>
+<li>Default:<ul>
+<li>Plumber: <code>round-robin</code></li>
+<li>Shiny: <code>ip-hash</code></li>
+</ul>
+</li>
+<li>Posibble values:<ul>
+<li><code>round-robin</code></li>
+<li><code>ip-hash</code></li>
+</ul>
+</li>
+</ul>
+<p>The strategy to use for load balancing. Which strategy you choose depends on your
+workload.</p>
+<h3 id="round-robin">Round Robin</h3>
+<p>Round robin is a very lightweight and simple load balancing strategy. It simply
+distributes requests to workers in a round robin fashion. This can be a good strategy
+for most workloads, it is very simple and has very little overhead.</p>
+<p>You should <strong>NOT</strong> use round robin if the server is stateful, as it will not guarantee
+that requests from the same client will be routed to the same worker. If you need
+persistent state, use IP Hash.</p>
+<p>If a worker dies, the requests that were routed will continue to be the next available
+worker that is alive.</p>
+<h3 id="ip-hash">IP Hash</h3>
+<p>IP Hash is a more complex strategy that guarantees that requests from the same client
+will be routed to the same worker. This is useful for stateful servers, such as Shiny
+apps.</p>
+<p>IP Hash is enforced on Shiny apps, as round robin simply will not work with them.</p>
+<p>If a worker dies, the requests will be held until the worker is back online. This means
+that latency may increase if a worker dies.</p>
+<h2 id="type-type-of-server">Type (Type of server)</h2>
+<ul>
+<li>CLI: <code>--type</code> or <code>-t</code></li>
+<li>Environment: <code>FAUCET_TYPE</code></li>
+<li>Default: <code>auto</code></li>
+<li>Possible values:<ul>
+<li><code>auto</code></li>
+<li><code>plumber</code></li>
+<li><code>shiny</code></li>
+</ul>
+</li>
+</ul>
+<p>The type of server to run. This is used to determine the correct strategy to use
+and how to spawn the workers.</p>
+<h3 id="auto">Auto</h3>
+<p>Auto will attempt to determine the type of server based on the contents of the
+directory. If the directory contains a <code>plumber.R</code> file, it will be assumed to be
+a plumber server. If the directory does not contain a <code>plumber.R</code> file, it will be
+assumed to be a Shiny app.</p>
+<h3 id="shiny">Shiny</h3>
+<p>Shiny will run the server as a Shiny app. This will use the IP Hash strategy.</p>
+<h3 id="plumber">Plumber</h3>
+<p>Plumber will run the server as a Plumber server. This will use the Round Robin strategy
+unless the <code>--strategy</code> option is set to <code>ip-hash</code>.</p>
+<h2 id="directory-working-directory">Directory (Working directory)</h2>
+<ul>
+<li>CLI: <code>--dir</code> or <code>-d</code></li>
+<li>Environment: <code>FAUCET_DIR</code></li>
+<li>Default: <code>.</code></li>
+</ul>
+<p>The directory to run the server from. This should be the directory that contains the
+<code>plumber.R</code> or Shiny app contents.</p>
+<h2 id="ip-from-how-to-determine-the-client-ip">IP From (How to determine the client IP)</h2>
+<ul>
+<li>CLI: <code>--ip-from</code></li>
+<li>Environment: <code>FAUCET_IP_FROM</code></li>
+<li>Default: <code>client</code></li>
+<li>Possible values:<ul>
+<li><code>client</code></li>
+<li><code>x-forwarded-for</code></li>
+<li><code>x-real-ip</code></li>
+</ul>
+</li>
+</ul>
+<p>How to determine the client IP. This is used to determine the IP for the IP Hash
+strategy and for logging of HTTP requests. If you are running faucet directly to end
+users, you should use <code>client</code>. If you are running faucet behind a reverse proxy like
+<em>nginx</em>, you should use <code>x-forwarded-for</code> or <code>x-real-ip</code>.</p>
 <blockquote>
-<p><strong>Note:</strong>
-While the binary download is expected to work on most Linux distributions,
-compatibility is not guaranteed for all systems. If you encounter issues,
-consider using the Cargo installation or building from source options.</p>
+<p><strong>Note:</strong> If you are running faucet behind a reverse proxy, be sure to set the
+<code>X-Forwarded-For</code> or <code>X-Real-IP</code> header correctly in your reverse proxy's
+configuration.</p>
 </blockquote>
-<h2 id="option-2-install-with-cargo-linux-macos-windows">Option 2: Install with Cargo (Linux, macOS, Windows)</h2>
-<p>Install faucet with Cargo, Rust's package manager.</p>
-<ol>
-<li>Install Rust by following the instructions <a href="https://www.rust-lang.org/tools/install">here</a>.</li>
-</ol>
-<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-</code></pre>
-<ol>
-<li>Install faucet with Cargo.</li>
-</ol>
-<pre><code class="language-bash">cargo install faucet-server
-</code></pre>
-<h2 id="option-3-build-from-source-linux-macos-windows">Option 3: Build from Source (Linux, macOS, Windows)</h2>
-<ol>
-<li>Install Rust by following the instructions <a href="https://www.rust-lang.org/tools/install">here</a>.</li>
-</ol>
-<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-</code></pre>
-<ol>
-<li>Clone the faucet repository.</li>
-</ol>
-<pre><code class="language-bash">git clone https://github.com/andyquinterom/faucet.git
-</code></pre>
-<ol>
-<li>Build faucet with Cargo.</li>
-</ol>
-<pre><code class="language-bash">cargo install --path .
-</code></pre>
+<h2 id="logging">Logging</h2>
+<ul>
+<li>Environment: <code>FAUCET_LOG</code></li>
+<li>Default: <code>INFO</code></li>
+<li>Possible values:<ul>
+<li><code>ERROR</code></li>
+<li><code>WARN</code></li>
+<li><code>INFO</code></li>
+<li><code>DEBUG</code></li>
+<li><code>TRACE</code></li>
+</ul>
+</li>
+</ul>
+<p>The logging level to use. Refer to the <a href="../logging/">logging</a> section for more
+information.</p>
 
 
 

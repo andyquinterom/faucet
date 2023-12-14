@@ -11,8 +11,10 @@
         <link rel="canonical" href="https://andyquinterom.github.io/faucet/es/in_containers/">
       
       
-        <link rel="prev" href="../getting_started/">
+        <link rel="prev" href="../options/">
       
+      
+        <link rel="next" href="../logging/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -306,6 +308,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../options/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opciones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -466,6 +488,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -704,7 +746,7 @@ renv/staging/
 <p>Si este fuera un proyecto real, probablemente también ignorarías archivos como <code>.git</code>, <code>.Rproj.user</code>, <code>.DS_Store</code> y archivos sensibles como <code>.env</code>, <code>.htpasswd</code>, etc.</p>
 <h4 id="escribir-el-dockerfile">Escribir el Dockerfile</h4>
 <p>El primer paso para construir nuestra imagen de Docker es crear un archivo <code>Dockerfile</code> en la raíz de nuestro proyecto. Este archivo contendrá las instrucciones para construir nuestra imagen de Docker. En este caso, utilizarás la imagen <a href="https://hub.docker.com/r/andyquinterom/faucet"><code>andyquinterom/faucet</code></a> como base. Esta imagen se basa en la imagen <a href="https://hub.docker.com/r/rocker/r-ver"><code>rocker/r-ver</code></a>, que es una imagen R mínima basada en Debian Linux.</p>
-<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.3.1-r4.3
+<pre><code class="language-dockerfile">FROM andyquinterom/faucet:0.4.0-r4.3
 
 # Algunas variables de entorno para indicar a `renv`
 # instalar paquetes en la ubicación correcta
