@@ -756,9 +756,9 @@ that latency may increase if a worker dies.</p>
 and how to spawn the workers.</p>
 <h3 id="auto">Auto</h3>
 <p>Auto will attempt to determine the type of server based on the contents of the
-directory. If the directory contains a <code>plumber.R</code> file, it will be assumed to be
-a plumber server. If the directory does not contain a <code>plumber.R</code> file, it will be
-assumed to be a Shiny app.</p>
+directory. If the directory contains a <code>plumber.R</code> or <code>entrypoint.R</code> file, it
+will be assumed to be a plumber server. If the directory contains a <code>app.R</code>, or
+a <code>server.R</code> and <code>ui.R</code>, it will be assumed to be a Shiny server.</p>
 <h3 id="shiny">Shiny</h3>
 <p>Shiny will run the server as a Shiny app. This will use the IP Hash strategy.</p>
 <h3 id="plumber">Plumber</h3>

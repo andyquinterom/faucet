@@ -761,9 +761,10 @@ trabajador muere.</p>
 correcta a utilizar y cómo crear los trabajadores.</p>
 <h3 id="auto">Auto</h3>
 <p>Auto intentará determinar el tipo de servidor según el contenido del
-directorio. Si el directorio contiene un archivo <code>plumber.R</code>, se asumirá que es
-un servidor Plumber. Si el directorio no contiene un archivo <code>plumber.R</code>, se
-asumirá que es una aplicación Shiny.</p>
+directorio. Si el directorio contiene un archivo <code>plumber.R</code> o <code>entrypoint.R</code>,
+se asumirá que es un servidor Plumber. Si el directorio contiene un archivo
+<code>app.R</code> o un archivo <code>ui.R</code> y <code>server.R</code>, se asumirá que es una aplicación
+Shiny.</p>
 <h3 id="shiny">Shiny</h3>
 <p>Shiny ejecutará el servidor como una aplicación Shiny. Esto utilizará la
 estrategia IP Hash.</p>
