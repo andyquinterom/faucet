@@ -2,84 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://andyquinterom.github.io/faucet/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/"/>
     </url>
     <url>
+        <loc>https://andyquinterom.github.io/faucet/examples/</loc>
+        <lastmod>2023-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/examples/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/examples/"/>
+    </url>
+    <url>
         <loc>https://andyquinterom.github.io/faucet/getting_started/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/getting_started/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/getting_started/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/in_containers/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/in_containers/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/in_containers/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/install/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/install/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/install/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/logging/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/logging/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/logging/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/options/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/options/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/options/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/es/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/"/>
     </url>
     <url>
+        <loc>https://andyquinterom.github.io/faucet/es/examples/</loc>
+        <lastmod>2023-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/examples/"/>
+    </url>
+    <url>
         <loc>https://andyquinterom.github.io/faucet/es/getting_started/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/getting_started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/getting_started/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/es/in_containers/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/in_containers/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/in_containers/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/es/install/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/install/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/install/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/es/logging/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/logging/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/logging/"/>
     </url>
     <url>
         <loc>https://andyquinterom.github.io/faucet/es/options/</loc>
-        <lastmod>2023-12-15</lastmod>
+        <lastmod>2023-12-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://andyquinterom.github.io/faucet/es/options/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://andyquinterom.github.io/faucet/options/"/>
